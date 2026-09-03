@@ -1,1 +1,0 @@
-# kafka-connect-log-analyzer-claude-skill
