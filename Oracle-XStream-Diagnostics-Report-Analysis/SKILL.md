@@ -1,7 +1,7 @@
 # Claude Skill: Oracle XStream Diagnostics Report Analysis
 
-**Description:** A highly structured technical analysis skill designed to process `orclcdc_diag.sql` generated HTML reports for Oracle XStream CDC Source Connectors. It enforces strict metric-based health assessments, bottleneck identification, and actionable remediation without speculation.
-**Use Case:** Database Administration, System Integration, Kafka Connect Troubleshooting  
+- **Description:** A highly structured technical analysis skill designed to process `orclcdc_diag.sql` generated HTML reports for Oracle XStream CDC Source Connectors. It enforces strict metric-based health assessments, bottleneck identification, and actionable remediation without speculation.
+- **Use Case:** Database Administration, System Integration, Kafka Connect Troubleshooting  
 
 ---
 
