@@ -5,14 +5,6 @@
 
 ---
 
-## 🛠️ How to Use This Skill
-
-1. **In Claude Projects (Recommended):** Copy the text inside the `<system_prompt>` block below and paste it into your Project's **Custom Instructions**. Whenever you upload an `orclcdc_diag.sql` report, Claude will automatically apply these rules.
-2. **Via API:** Pass the content of the `<system_prompt>` block as the `system` parameter in your Messages API call.
-3. **In Standard Chat:** Paste the `<system_prompt>` block as your first message, and then upload or paste the diagnostic report in your next message.
-
----
-
 ## 🤖 System Prompt
 
 ```xml
