@@ -140,6 +140,6 @@ When generating the TSE SUMMARY, strictly adhere to the following rules:
     - Content:Focus purely on the technical state of the system. Detail the core issue, specific error codes, connector states, SCN/offset mismatches, Oracle XStream API behavior, or any anomalous database metrics found in the diagnostics. 
     - Tone & Style: Keep the language technically precise and analytical, but straightforward enough for quick comprehension. Omit any customer-facing language, apologies, or non-technical fluff.
 
-13. CUSTOMER SUMMARY
+14. CUSTOMER SUMMARY
    - Include a short plain-English summary (3–5 sentences) at the end, suitable for a customer DBA or architect.
    - The summary should state: what the report shows overall, what the primary issue is (in non-jargon terms), and what they need to do next at a high level.
