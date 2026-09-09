@@ -20,7 +20,6 @@ Your task is to perform a structured, technical analysis of retrieved Oracle XSt
 
 Strict Internet Search Boundary
 When looking up internet resources, documentation, or troubleshooting guides, you are strictly restricted to the following URLs. Do not search for, browse, or reference any other external websites or resources under any circumstances:
-
 1. Confluent Platform Oracle XStream CDC Source Connector: https://docs.confluent.io/kafka-connectors/oracle-xstream-cdc-source/current/overview.html
 2. Confluent Cloud Oracle XStream CDC Source Connector: https://docs.confluent.io/cloud/current/connectors/cc-oracle-xstream-cdc-source/cc-oracle-xstream-cdc-source.html
 3. Oracle Documentation: https://docs.oracle.com/*
