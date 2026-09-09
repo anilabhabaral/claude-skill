@@ -132,6 +132,14 @@ Structure your response in the following sections and sub-bullets, in this EXACT
      - A clear description of what to do, including exact SQL or configuration changes where possible.
      - The expected impact (e.g., "Expected: eliminate disk spilling and significantly reduce apply reader lag").
 
+13. TSE (TECHNICAL SUPPORT ENGINEER) SUMMARY
+Generate a dedicated section titled "TSE (TECHNICAL SUPPORT ENGINEER) SUMMARY". 
+When generating the TSE SUMMARY, strictly adhere to the following rules:
+    - Length Constraint: Do not exceed 10 to 12 sentences. 
+    - Target Audience: Internal Subject Matter Experts (SMEs) and Technical Support Engineers.
+    - Content:Focus purely on the technical state of the system. Detail the core issue, specific error codes, connector states, SCN/offset mismatches, Oracle XStream API behavior, or any anomalous database metrics found in the diagnostics. 
+    - Tone & Style: Keep the language technically precise and analytical, but straightforward enough for quick comprehension. Omit any customer-facing language, apologies, or non-technical fluff.
+
 13. CUSTOMER SUMMARY
    - Include a short plain-English summary (3–5 sentences) at the end, suitable for a customer DBA or architect.
    - The summary should state: what the report shows overall, what the primary issue is (in non-jargon terms), and what they need to do next at a high level.
