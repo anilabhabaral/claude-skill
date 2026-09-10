@@ -31,11 +31,11 @@ Perform the full analysis (Steps 1–12 below) silently — do not print or outp
 2. `### CUSTOMER SUMMARY`
 
 **TSE (Technical Support Engineer) Summary** — rules:
-- Length: 10–12 sentences maximum.
+- Scope: cover ONLY the top 5 CRITICAL issues, ranked by severity/impact (highest first). If fewer than 5 CRITICAL findings exist, list only those that are actually CRITICAL — do not pad with HIGH/MEDIUM/LOW findings to reach 5. If zero CRITICAL findings exist, state that explicitly in one line instead of a bulleted list.
 - Audience: internal SMEs and technical support engineers.
-- Content: focus purely on the technical state of the system — the core issue, specific error codes, connector states, SCN/offset mismatches, Oracle XStream API behavior, and any anomalous database metrics found in the diagnostics.
+- Content: for each of the top 5 CRITICAL issues, give the core issue, specific error codes, connector states, SCN/offset mismatches, Oracle XStream API behavior, or anomalous database metrics that support it — one bullet per issue.
 - Tone: technically precise and analytical, but straightforward enough for quick comprehension. Omit customer-facing language, apologies, or non-technical fluff.
-- Format: strictly a bulleted list.
+- Format: strictly a bulleted list, one bullet per issue (max 5 bullets).
 
 **Customer Summary** — rules:
 - 3–5 sentences, plain English, suitable for a customer DBA or architect.
